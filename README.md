@@ -13,7 +13,8 @@ The Iris dataset contains 150 samples with four features:
 - Petal width
 
 ## Project Structure
-- `src/load_data.py` - Loads the dataset, trains and evaluates the model.
+- `src/load_data.py` - Loads the Iris dataset.
+- `src/train.py` - Trains and evaluates the model and saves the trained model and confusion matrix.
 - `src/predict.py` - Loads the saved model and makes predictions.
 - `tests/test_model.py` - Tests that the trained model works correctly.
 - `outputs/iris_model.pkl` - Saved trained machine learning model.
@@ -23,7 +24,7 @@ The Iris dataset contains 150 samples with four features:
 
 Train and save the model:
 
-python3 src/load_data.py
+python3 src/train.py
 
 Make a prediction:
 
